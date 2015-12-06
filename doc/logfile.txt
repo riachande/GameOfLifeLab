@@ -1,0 +1,86 @@
+Project documentation
+<---- javadoc command: ---->
+/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/javadoc
+-sourcepath
+/Users/RiaChande/Documents/GameOfLifeLab
+-source
+1.6
+-classpath
+/Users/RiaChande/Downloads/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/bluejcore.jar:/Users/RiaChande/Downloads/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/junit-4.8.2.jar:/Users/RiaChande/Downloads/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/userlib/pi4j-core.jar:/Users/RiaChande/Downloads/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/userlib/pi4j-device.jar:/Users/RiaChande/Downloads/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/userlib/pi4j-gpio-extension.jar:/Users/RiaChande/Downloads/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/userlib/pi4j-service.jar:/Users/RiaChande/Documents/GameOfLifeLab
+-d
+/Users/RiaChande/Documents/GameOfLifeLab/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/Users/RiaChande/Downloads/BlueJ 3.1.5/BlueJ.app/Contents/Resources/Java/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+-doctitle
+GameOfLifeLab
+-windowtitle
+GameOfLifeLab
+-author
+-version
+-nodeprecated
+-package
+-link
+http://download.oracle.com/javase/8/docs/api/
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLifeTest.java
+<---- end of javadoc command ---->
+Loading source file /Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java...
+Loading source file /Users/RiaChande/Documents/GameOfLifeLab/GameOfLifeTest.java...
+Constructing Javadoc information...
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:1: package info.gridworld.actor does not exist
+import info.gridworld.actor.Actor;
+                           ^
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:2: package info.gridworld.actor does not exist
+import info.gridworld.actor.ActorWorld;
+                           ^
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:3: package info.gridworld.actor does not exist
+import info.gridworld.actor.Flower ;
+                           ^
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:4: package info.gridworld.grid does not exist
+import info.gridworld.grid.Grid;
+                          ^
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:5: package info.gridworld.grid does not exist
+import info.gridworld.grid.BoundedGrid;
+                          ^
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:6: package info.gridworld.grid does not exist
+import info.gridworld.grid.Location;
+                          ^
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:18: cannot find symbol
+symbol  : class ActorWorld
+location: class GameOfLife
+    private ActorWorld world;
+            ^
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:107: cannot find symbol
+symbol  : class Actor
+location: class GameOfLife
+    public Actor getActor(int row, int col)
+           ^
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLifeTest.java:6: package info.gridworld.actor does not exist
+import info.gridworld.actor.Actor;
+                           ^
+Standard Doclet version 1.6.0_65
+Building tree for all the packages and classes...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/GameOfLife.html...
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:30: warning - @post is an unknown tag.
+/Users/RiaChande/Documents/GameOfLifeLab/GameOfLife.java:107: warning - @pre is an unknown tag.
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/GameOfLifeTest.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/package-frame.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/package-summary.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/package-tree.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/constant-values.html...
+Building index for all the packages and classes...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/overview-tree.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/index-all.html...
+Building index for all classes...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/allclasses-frame.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/allclasses-noframe.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/index.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/help-doc.html...
+Generating /Users/RiaChande/Documents/GameOfLifeLab/doc/stylesheet.css...
+11 warnings

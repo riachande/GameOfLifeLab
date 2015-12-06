@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=GameOfLife()
+comment0.text=\n\ Default\ constructor\ for\ objects\ of\ class\ GameOfLife\n\ \n\ @post\ \ \ \ the\ game\ will\ be\ initialized\ and\ populated\ with\ the\ initial\ state\ of\ cells\n\ \n
+comment1.params=
+comment1.target=void\ populateGame()
+comment1.text=\n\ Creates\ the\ actors\ and\ inserts\ them\ into\ their\ initial\ starting\ positions\ in\ the\ grid\n\n\ @pre\ \ \ \ \ the\ grid\ has\ been\ created\n\ @post\ \ \ \ all\ actors\ that\ comprise\ the\ initial\ state\ of\ the\ game\ have\ been\ added\ to\ the\ grid\n\ \n
+comment2.params=
+comment2.target=void\ createNextGeneration()
+comment2.text=\n\ Generates\ the\ next\ generation\ based\ on\ the\ rules\ of\ the\ Game\ of\ Life\ and\ updates\ the\ grid\n\ associated\ with\ the\ world\n\n\ @pre\ \ \ \ \ the\ game\ has\ been\ initialized\n\ @post\ \ \ \ the\ world\ has\ been\ populated\ with\ a\ new\ grid\ containing\ the\ next\ generation\n\ \n
+comment3.params=row\ col
+comment3.target=info.gridworld.actor.Actor\ getActor(int,\ int)
+comment3.text=\n\ Returns\ the\ actor\ at\ the\ specified\ row\ and\ column.\ Intended\ to\ be\ used\ for\ unit\ testing.\n\n\ @param\ \ \ row\ the\ row\ (zero-based\ index)\ of\ the\ actor\ to\ return\n\ @param\ \ \ col\ the\ column\ (zero-based\ index)\ of\ the\ actor\ to\ return\n\ @pre\ \ \ \ \ the\ grid\ has\ been\ created\n\ @return\ \ the\ actor\ at\ the\ specified\ row\ and\ column\n
+comment4.params=
+comment4.target=int\ getNumRows()
+comment4.text=\n\ Returns\ the\ number\ of\ rows\ in\ the\ game\ board\n\n\ @return\ \ \ \ the\ number\ of\ rows\ in\ the\ game\ board\n
+comment5.params=
+comment5.target=int\ getNumCols()
+comment5.text=\n\ Returns\ the\ number\ of\ columns\ in\ the\ game\ board\n\n\ @return\ \ \ \ the\ number\ of\ columns\ in\ the\ game\ board\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment6.text=\n\ Creates\ an\ instance\ of\ this\ class.\ Provides\ convenient\ execution.\n\n
+numComments=7
